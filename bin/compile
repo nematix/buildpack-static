@@ -3,6 +3,7 @@
 
 # fail fast
 set -e
+set -o pipefail
 
 # config
 APACHE_VERSION="2.2.19"
